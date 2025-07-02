@@ -1,7 +1,15 @@
 # College ROI Analysis – SQL + Power BI Project
 
 --
+## 🧭 ERD (Entity Relationship Diagram)
 
+![College ROI ERD](ERD_college_roi.png)
+
+## 🧮 Data Model (Power BI)
+
+![College ROI Data Model](data_model_college_roi.png)
+
+--
 ## Overview
 
 This project showcases my SQL and Power BI skills by analyzing the **Return on Investment (ROI)** of colleges across India. It involves **database setup, data integration, feature engineering**, and **Power BI dashboard creation**. The goal is to help prospective students and educational analysts make data-driven decisions about college selection.
@@ -29,7 +37,7 @@ This project showcases my SQL and Power BI skills by analyzing the **Return on I
 - Joined all 4 tables using `college_id` as primary key
 - Created a **view** to export cleaned, joined data for Power BI
 
----
+--
 
 ##  Feature Engineering
 
@@ -40,7 +48,7 @@ This project showcases my SQL and Power BI skills by analyzing the **Return on I
 - Added this ROI calculation directly in the SQL view for seamless integration with Power BI
 - Applied grouping and filtering to handle government/private segmentation and stream categories
 
----
+--
 
 ##  Dashboard Insights (Power BI)
 
@@ -52,7 +60,7 @@ Visuals & Components:
 -  **KPI Cards**: Highest ROI %, Average ROI, Total Colleges
 -  Slicers: Stream, State, Exam, Type
 
----
+--
 
 ##  Business Questions Solved
 
@@ -62,7 +70,7 @@ Visuals & Components:
 4. Are government colleges offering better ROI than private ones?
 5. What are the average ROI figures across states and streams?
 
----
+--
 
 ##  Key Insights
 
@@ -72,7 +80,7 @@ Visuals & Components:
 - Clear trend: **lower cutoff ranks = higher ROI**
 - State-wise variations show opportunity for localized recommendations
 
----
+--
 
 ##  Actionable Recommendations
 
@@ -81,7 +89,7 @@ Visuals & Components:
 -  Consider both **ROI and cutoff ranks** when choosing institutions
 -  Government colleges tend to outperform private in ROI
 
----
+--
 
 ##  Tools Used
 
@@ -90,13 +98,13 @@ Visuals & Components:
 - **Power Query** – data transformation
 - **Excel/CSV** – source data structure
 
----
+--
 
 ##  Screenshot
 
 *(Insert your dashboard screenshot here)*
 
----
+--
 
 ##  Files Included
 
@@ -107,7 +115,7 @@ Visuals & Components:
 - `college_roi_dashboard.pbix`
 - `README.md`
 
----
+--
 
 ##  Notice
 
