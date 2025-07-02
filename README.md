@@ -16,6 +16,9 @@ This project showcases my SQL and Power BI skills by analyzing the **Return on I
   - `placements_table`
   - `cutoffs_table`
 
+### ERD
+
+
 ###  Data Import
 - Imported CSV data for each table into MySQL
 - Ensured foreign key relationships for accurate joins
