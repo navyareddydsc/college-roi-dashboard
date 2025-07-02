@@ -8,7 +8,7 @@ This project showcases my SQL and Power BI skills by analyzing the **Return on I
 --
 ## ERD
 
-   ERD.png
+ ![ERD](ERD.png)
 ## Project Structure
 
 ###  Database Setup
