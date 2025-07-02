@@ -1,12 +1,12 @@
 # College ROI Analysis – SQL + Power BI Project
 
----
+--
 
 ## Overview
 
 This project showcases my SQL and Power BI skills by analyzing the **Return on Investment (ROI)** of colleges across India. It involves **database setup, data integration, feature engineering**, and **Power BI dashboard creation**. The goal is to help prospective students and educational analysts make data-driven decisions about college selection.
 
----
+--
 
 ## Project Structure
 
