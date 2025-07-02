@@ -1,15 +1,6 @@
 # College ROI Analysis – SQL + Power BI Project
 
 --
-## 🧭 ERD (Entity Relationship Diagram)
-
-![College ROI ERD](ERD_college_roi.png)
-
-## 🧮 Data Model (Power BI)
-
-![College ROI Data Model](data_model_college_roi.png)
-
---
 ## Overview
 
 This project showcases my SQL and Power BI skills by analyzing the **Return on Investment (ROI)** of colleges across India. It involves **database setup, data integration, feature engineering**, and **Power BI dashboard creation**. The goal is to help prospective students and educational analysts make data-driven decisions about college selection.
@@ -99,13 +90,6 @@ Visuals & Components:
 - **Excel/CSV** – source data structure
 
 --
-
-##  Screenshot
-
-*(Insert your dashboard screenshot here)*
-
---
-
 ##  Files Included
 
 - `college_table.csv`
