@@ -1,37 +1,37 @@
-# 🎓 College ROI Analysis – SQL + Power BI Project
+# College ROI Analysis – SQL + Power BI Project
 
 ---
 
-## 📘 Overview
+## Overview
 
 This project showcases my SQL and Power BI skills by analyzing the **Return on Investment (ROI)** of colleges across India. It involves **database setup, data integration, feature engineering**, and **Power BI dashboard creation**. The goal is to help prospective students and educational analysts make data-driven decisions about college selection.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-### 🔹 Database Setup
+###  Database Setup
 - Created a MySQL database `college_roi_db` and set up 4 relational tables:
   - `college_table`
   - `fees_table`
   - `placements_table`
   - `cutoffs_table`
 
-### 🔹 Data Import
+###  Data Import
 - Imported CSV data for each table into MySQL
 - Ensured foreign key relationships for accurate joins
 
-### 🔹 Data Cleaning
+###  Data Cleaning
 - Filtered for "General" category records
 - Handled null values and ensured consistency in fee and placement figures
 
-### 🔹 SQL Integration
+###  SQL Integration
 - Joined all 4 tables using `college_id` as primary key
 - Created a **view** to export cleaned, joined data for Power BI
 
 ---
 
-## 🛠 Feature Engineering
+##  Feature Engineering
 
 - Introduced a custom metric for ROI:
   ```sql
@@ -42,19 +42,19 @@ This project showcases my SQL and Power BI skills by analyzing the **Return on I
 
 ---
 
-## 📊 Dashboard Insights (Power BI)
+##  Dashboard Insights (Power BI)
 
 Visuals & Components:
-- 📌 **Top 5 Colleges by ROI**
-- 📍 **State-wise Average ROI**
-- ⚙️ **Stream-wise ROI vs Average Package** (combo chart)
-- 🎯 **Cutoff Rank vs ROI** (scatter plot)
-- 💡 **KPI Cards**: Highest ROI %, Average ROI, Total Colleges
-- 🔄 Slicers: Stream, State, Exam, Type
+-  **Top 5 Colleges by ROI**
+-  **State-wise Average ROI**
+-  **Stream-wise ROI vs Average Package** (combo chart)
+-  **Cutoff Rank vs ROI** (scatter plot)
+-  **KPI Cards**: Highest ROI %, Average ROI, Total Colleges
+-  Slicers: Stream, State, Exam, Type
 
 ---
 
-## 🧠 Business Questions Solved
+##  Business Questions Solved
 
 1. Which colleges provide the highest return on investment?
 2. How does stream type affect ROI (Engineering vs MBA vs Medical)?
@@ -64,7 +64,7 @@ Visuals & Components:
 
 ---
 
-## 📈 Key Insights
+##  Key Insights
 
 - **IIM Ahmedabad** tops with ROI of **767%**
 - **Engineering** and **Government** colleges show higher ROI than MBA/Private colleges
@@ -74,16 +74,16 @@ Visuals & Components:
 
 ---
 
-## ✅ Actionable Recommendations
+##  Actionable Recommendations
 
-- 🎓 Choose colleges with lower fees and strong placement records to maximize ROI
-- 📍 Focus on Engineering streams for better ROI prospects
-- 📊 Consider both **ROI and cutoff ranks** when choosing institutions
-- 🎯 Government colleges tend to outperform private in ROI
+-  Choose colleges with lower fees and strong placement records to maximize ROI
+-  Focus on Engineering streams for better ROI prospects
+-  Consider both **ROI and cutoff ranks** when choosing institutions
+-  Government colleges tend to outperform private in ROI
 
 ---
 
-## 🔗 Tools Used
+##  Tools Used
 
 - **SQL (MySQL)** – data modeling, joins, views, aggregations
 - **Power BI** – dashboards, filters, DAX-based KPIs
@@ -92,13 +92,13 @@ Visuals & Components:
 
 ---
 
-## 📷 Screenshot
+##  Screenshot
 
 *(Insert your dashboard screenshot here)*
 
 ---
 
-## 📁 Files Included
+##  Files Included
 
 - `college_table.csv`
 - `fees_table.csv`
@@ -109,6 +109,6 @@ Visuals & Components:
 
 ---
 
-## ⚠️ Notice
+##  Notice
 
 All data in this project is artificially created for educational purposes and does not reflect real college data. This project is not affiliated with any academic institution or organization.
